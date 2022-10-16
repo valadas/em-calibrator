@@ -1,0 +1,21 @@
+:host {
+  display: block;
+}
+
+.card{
+  border: 2px solid var(--color-primary);
+  display: flex;
+  flex-direction: column;
+  h2 {
+    margin:0;
+    padding: 0.25em;
+    background-color: var(--color-primary);
+    color: var(--color-primary-contrast);
+  }
+  .card-content{
+    padding: 0.5em;
+    input, textarea{
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "em-calibrator",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Stencil App Starter",
+  "scripts": {
+    "build": "stencil build",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll",
+    "generate": "stencil generate"
+  },
+  "devDependencies": {
+    "@stencil-community/router": "^1.0.2",
+    "@stencil/core": "2.13.0",
+    "@stencil/sass": "^2.0.0",
+    "@stencil/store": "^2.0.1",
+    "gcode-preview": "^2.8.2"
+  },
+  "license": "MIT"
+}
